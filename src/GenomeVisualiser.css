@@ -1,0 +1,43 @@
+.igv-container {
+    background-color: white;
+    width: 1200px;
+    height: 800px;
+    display: block; 
+    margin: 0 auto;
+}
+
+.genome-load-modal {
+    width: 300px;
+    height: 200px;
+    padding: 8px;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: thin;
+    border-color: #bfbfbf;
+    background-color: #f3f3f3;
+    margin: 25vh auto 0;
+}
+
+.modal-name-span {
+    font-size: large;
+    font-weight: bold;
+}
+
+.genome-url {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.index-url {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.genome-url-container {
+    margin-top: 20px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-evenly;
+}
