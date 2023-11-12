@@ -1,0 +1,1 @@
+This is an example of integrating the igv.js genome browser with React framework for front-end web development.
