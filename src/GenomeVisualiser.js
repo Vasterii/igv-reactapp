@@ -24,6 +24,11 @@ const GenomeVisualiser = () => {
     setGenomeOptions(genomeOptions);
   };
 
+  React.useEffect(() => {
+    loadGenomeByURL("http://bacregdb.bsu.by/tmp/NZ_CP024842.1_sequence.fasta", 
+    "http://bacregdb.bsu.by/tmp/NZ_CP024842.1_sequence.fasta.fai");
+  }, [])
+
   return (
     <div>
       <button onClick={openModal}>Загрузить URL генома</button>
